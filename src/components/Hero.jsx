@@ -5,6 +5,7 @@ const Hero = () => {
     <section
       className="flex flex-col lg:h-[80.4vh]  bg-[#1B4E93] px-16 pt-12"
       style={{ borderTopLeftRadius: 24, borderTopRightRadius: 24 }}
+      data-aos="fade-up"
     >
       <span className="text-white font-semibold text-center md:text-left lg:text-2xl">
         WHAT WE DO

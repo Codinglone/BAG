@@ -1,13 +1,12 @@
 import { useState } from "react";
 import logo from "../assets/bag.jpeg";
 import { BiMenu } from "react-icons/bi";
-import Aos from "aos";
-Aos.init();
 
 const Navbar = () => {
     const [showNav, setShowNav] = useState(false)
   return (
-    <nav>
+    <nav data-aos="zoom-in"
+    data-aos-duration="1500">
       <div className="lg:flex hidden w-full lg:px-16 lg:items-center lg:justify-between lg:py-10">
         <div id="brand">
           <img

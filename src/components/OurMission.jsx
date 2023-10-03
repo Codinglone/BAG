@@ -5,6 +5,8 @@ const OurMission = () => {
     <section
       className="flex lg:justify-between h-[660px] mb-16 lg:pt-12 lg:px-16"
       id="mission"
+      data-aos="fade-up"
+      data-aos-duration="1500"
     >
       <div className="lg:w-[45%]">
         <img

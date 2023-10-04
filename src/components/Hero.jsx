@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -33,9 +34,9 @@ const Hero = () => {
         </p>
       </div>
       <div className="flex py-8 justify-center lg:justify-start">
-        <button className="rounded-md border-2 border-white px-12 text-white py-2 hover:border-[#000629] hover:bg-[#000629] font-bold">
+        <Link to="#mission" className="rounded-md border-2 border-white px-12 text-white py-2 hover:border-[#000629] hover:bg-[#000629] font-bold">
           Learn more
-        </button>
+        </Link>
       </div>
     </section>
   );

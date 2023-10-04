@@ -1,18 +1,16 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import OurMission from './components/OurMission'
-import OurVision from './components/OurVision'
-import Feedback from './components/Feedback'
+import HomePage from './pages/HomePage'
+import { Routes, Route } from 'react-router-dom'
+import Success from './pages/Success'
+
 const App = () => {
   return (
-    <section className='overflow-hidden'>
-      <Navbar />
-      <Hero />
-      <OurMission />
-      <OurVision />
-      <Feedback />
-    </section>
+    <>
+      <Routes>
+        <Route exact path='/' element={<HomePage />} />
+        <Route exact path='/success' element={<Success />} />
+      </Routes>
+    </>
   )
 }
 

@@ -6,6 +6,7 @@ const OurVision = () => {
       className="mt-56 mb-8 lg:mt-0 lg:py-0"
       data-aos="fade-up"
       data-aos-duration="1500"
+      id="vision"
     >
       <h3 className="pt-8 text-center text-2xl lg:text-4xl lg:my-8">
         <b className="text-[#1A66FF]">OUR</b>{" "}
